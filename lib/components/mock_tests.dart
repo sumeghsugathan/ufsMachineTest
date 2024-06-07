@@ -30,7 +30,7 @@ class MockTests extends StatelessWidget {
                       ),
                       child: Image.asset('assets/images/book.png'),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 8,
                     ),
                     const Center(
@@ -46,7 +46,7 @@ class MockTests extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Container(
@@ -66,7 +66,7 @@ class MockTests extends StatelessWidget {
                       ),
                       child: Image.asset('assets/images/Pen.png'),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 8,
                     ),
                     const Center(
@@ -84,7 +84,7 @@ class MockTests extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(
+          const SizedBox(
             width: 10,
           ),
           Column(
@@ -106,7 +106,7 @@ class MockTests extends StatelessWidget {
                       ),
                       child: Image.asset('assets/images/Headphones.png'),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 8,
                     ),
                     const Center(
@@ -122,7 +122,7 @@ class MockTests extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Container(
@@ -142,7 +142,7 @@ class MockTests extends StatelessWidget {
                       ),
                       child: Image.asset('assets/images/UserSound.png'),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 8,
                     ),
                     const Center(

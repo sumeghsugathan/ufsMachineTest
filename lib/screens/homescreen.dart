@@ -12,13 +12,13 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 231, 237, 244),
+      backgroundColor: const Color.fromARGB(255, 231, 237, 244),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            UserCard(),
-            Padding(
+            const UserCard(),
+            const Padding(
               padding: EdgeInsets.all(15.0),
               child: Text(
                 'Recently played',
@@ -29,12 +29,12 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
-            RecentlyPlayed(),
-            SizedBox(height: 20),
-            ExploreCourses(),
-            SizedBox(height: 20),
-            FindMentor(),
-            Padding(
+            const RecentlyPlayed(),
+            const SizedBox(height: 20),
+            const ExploreCourses(),
+            const SizedBox(height: 20),
+            const FindMentor(),
+            const Padding(
               padding: EdgeInsets.all(15.0),
               child: Text(
                 'Mock Tests',
@@ -45,8 +45,8 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
-            MockTests(),
-            Container(
+            const MockTests(),
+            SizedBox(
               height: 245,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
@@ -70,12 +70,12 @@ class HomeScreen extends StatelessWidget {
                               width: double.infinity,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(10),
-                                image: DecorationImage(
+                                image: const DecorationImage(
                                   image: AssetImage('assets/images/boy.png'),
                                 ),
                               ),
                             ),
-                            Text(
+                            const Text(
                               "OET Beginner special",
                               style: TextStyle(
                                 fontSize: 14,
@@ -83,7 +83,7 @@ class HomeScreen extends StatelessWidget {
                                 fontFamily: 'PlusJakartaSans',
                               ),
                             ),
-                            Text(
+                            const Text(
                               "Class and Perparation",
                               style: TextStyle(
                                 fontSize: 14,
@@ -91,7 +91,7 @@ class HomeScreen extends StatelessWidget {
                                 fontFamily: 'PlusJakartaSans',
                               ),
                             ),
-                            Text(
+                            const Text(
                               "Tips",
                               style: TextStyle(
                                 fontSize: 14,
@@ -111,10 +111,10 @@ class HomeScreen extends StatelessWidget {
                                 ),
                               ],
                             ),
-                            Spacer(),
+                            const Spacer(),
                             Row(
                               children: [
-                                Text(
+                                const Text(
                                   "₹5000",
                                   style: TextStyle(
                                     fontSize: 14,
